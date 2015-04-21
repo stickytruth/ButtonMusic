@@ -51,7 +51,7 @@
         volume: 1.0
     });
 
-    var ws = new WebSocket("wss://wss.redditmedia.com/thebutton?h=c1c93f84c814363a05b05be413a20b9332424c86&e=1429613026");
+    var ws = new WebSocket("wss://wss.redditmedia.com/thebutton?h=3d59066f62029696e19d3bfb643bd7ece4ec2907&e=1429669368");
     ws.onopen = function(){console.log("connected");}
     ws.onmessage = function (evt){
         var data = JSON.parse(evt.data);
